@@ -5,13 +5,15 @@
  * @name jsJwtApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the jsJwtApp
+ * Main Controller
  */
+
 angular.module('jsJwtApp')
+
   .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+      this.awesomeThings = [
+        'HTML5 Boilerplate',
+        'AngularJS',
+        'Karma'
+      ];
+    });
